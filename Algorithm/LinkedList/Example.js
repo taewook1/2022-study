@@ -1,5 +1,5 @@
-//예시 SinglyLinkedList
 //예외 처리가 되어있지 않음
+//예외 처리 추가 예정
 
 class Node {
     constructor(value) {
