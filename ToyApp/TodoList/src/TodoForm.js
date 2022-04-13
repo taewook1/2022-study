@@ -1,4 +1,7 @@
-function TodoForm({ $target, onSubmit }) {
+import { checkNew } from "../validation/validation.js"
+
+export default function TodoForm({ $target, onSubmit }) {
+  checkNew(new.target)
   const $form = document.createElement('form')
 
   $target.appendChild($form)
