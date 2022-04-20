@@ -1,0 +1,12 @@
+li:hover {
+  cursor: pointer;
+}
+
+.Complete {
+  text-decoration: line-through;
+}
+
+.Count{
+  font-weight: bold;
+  font-size: 20px;
+}
